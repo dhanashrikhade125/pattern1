@@ -137,6 +137,157 @@ namespace ConsoleApp32
             // ****
             //*****
             //******
+
+            //for (int i = 0; i <= 6 - 1; i++)
+            //{
+            //    for (int j = 0; j <= i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 0; k <= 6 - 1 - i; k++)
+            //    {
+            //        Console.Write("*" + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //o/p
+            //    ******
+            //    *****
+            //    ****
+            //     ***
+            //      **
+            //       *
+
+            //for (int i = 6; i >= 1; i--)
+            //{
+            //    for (int j = 6; j > i; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 1; k <= i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+
+            //o/p
+            //******
+            //*****
+            // ****
+            //  ***
+            //   **
+            //    *
+
+            //for (int i = 0; i <= 6 - 1; i++)
+            //{
+            //    for (int j = 0; j <= i; j++)
+            //    {
+            //        Console.Write("*" + " ");
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //for (int i = 6 - 1; i >= 0; i--)
+            //{
+            //    for (int j = 0; j <= i - 1; j++)
+            //    {
+            //        Console.Write("*" + " ");
+            //    }
+            //    Console.WriteLine("");
+            //}
+
+            //o/p
+            //*
+            //**
+            //***
+            //****
+            //*****
+            //******
+            //*****
+            //****
+            //***
+            //**
+            //*
+
+            //int i, j, k, rows = 5;
+            //for (i = 1; i <= rows; i++)
+            //{
+            //    for (j = i; j < rows; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (k = 1; k <= i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //for (i = rows; i >= 1; i--)
+            //{
+            //    for (j = i; j <= rows; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (k = 1; k < i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+
+            //o/p
+            //   *
+            //  **
+            // ***
+            //****
+            //*****
+            //****
+            // ***
+            //  **
+            //   *
+
+            int i, j, k;
+
+            for (i = 0; i <= 6 - 1; i++)
+            {
+                for (j = 0; j < i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (k = i; k <= 6 - 1; k++)
+                {
+                    Console.Write("*" + " ");
+                }
+                Console.WriteLine("");
+            }
+            for (i = 6 - 1; i >= 0; i--)
+            {
+                for (j = 0; j < i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (k = i; k <= 6 - 1; k++)
+                {
+                    Console.Write("*" + " ");
+                }
+                Console.WriteLine("");
+            }
+
+            //o/p
+            //******
+            // *****
+            //  ****
+            //   ***
+            //    **
+            //     *
+            //     *
+            //    **
+            //   ***
+            //  ****
+            // *****
+            //******
+
         }
     }
 }
