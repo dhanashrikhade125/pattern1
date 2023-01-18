@@ -21,7 +21,7 @@ namespace ConsoleApp32
             //            Console.WriteLine();
             //        }
 
-            //}
+
             // o/p =
             // *****
             //*****
@@ -42,7 +42,7 @@ namespace ConsoleApp32
             //           Console.WriteLine(); ;
             //        }
             //        Console.WriteLine("End of Program");
-            //}
+
 
             // o/p= 
             //    *
@@ -73,19 +73,19 @@ namespace ConsoleApp32
             //*****
             //******
 
-            int i, j;
-            for (i = 0; i < 5; i++)
-            {
-                for (j = 2 * (5 - i); j >= 0; j--)
-                {
-                    Console.Write(" ");
-                }
-                    for (j = 0; j <= i; j++)
-                    {
-                        Console.Write("* ");
-                    }
-                    Console.WriteLine();
-               }
+            //int i, j;
+            //for (i = 0; i < 5; i++)
+            //{
+            //    for (j = 2 * (5 - i); j >= 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //        for (j = 0; j <= i; j++)
+            //        {
+            //            Console.Write("* ");
+            //        }
+            //        Console.WriteLine();
+            // }
 
 
             //o/p
@@ -94,8 +94,51 @@ namespace ConsoleApp32
             //   ***
             //  ****
             // *****
-            }
+
+            //int rows = 5;
+            ////inner loop  
+            //for (int i = rows - 1; i >= 0; i--)
+            //{
+            //    //outer loop  
+            //    for (int j = 0; j <= i; j++)
+            //    {
+            //        //prints star and space  
+            //        Console.Write("*" + " ");
+            //    }
+            //    //throws the cursor in the next line after printing each line  
+            //    Console.WriteLine();
+            //}
+
+            //o/p
+            //*****
+            //****
+            //***
+            //**
+            //*
+
+            //for (int i = 0; i <= 5; i++)
+            //{
+            //    //outer loop  
+            //    for (int j = 1; j <= 5 - i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 0; k <= i; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine("");
+            //}
+
+            //o/p
+            //    *
+            //   **
+            //  ***
+            // ****
+            //*****
+            //******
         }
     }
+}
 
 
