@@ -11,19 +11,91 @@ namespace ConsoleApp32
         static void Main(string[] args)
         {
 
-            for(int i=1; i<=5;i++)
-            { 
-                for(int j=1;j<=5-i;j++)
+
+            //        for (int i = 1; i <= 4; i++)
+            //        {
+            //            for (int j = 1; j <= 5; j++) // column
+            //            {
+            //                Console.Write("*");
+            //            }
+            //            Console.WriteLine();
+            //        }
+
+            //}
+            // o/p =
+            // *****
+            //*****
+            //*****
+            //*****
+
+
+            //        for(int i=1; i<=5;i++)
+            //        { 
+            //            for(int j=1;j<=5-i;j++)
+            //            {
+            //                Console.Write(" ");
+            //            }
+            //           for(int k=1;k<=(2* i-1);k++)
+            //            {
+            //                Console.Write("*");
+            //            }
+            //           Console.WriteLine(); ;
+            //        }
+            //        Console.WriteLine("End of Program");
+            //}
+
+            // o/p= 
+            //    *
+            //   ***
+            //  *****
+            // *******
+            //*********
+            //End of Program
+
+
+
+            //int i, j;
+            //for (i = 0; i < 6; i++)
+            //{
+
+            //    for (j = 0; j <= i; j++)
+            //    {
+            //        Console.Write("* ");
+            //    } 
+            //    Console.WriteLine();
+            //}
+
+            //o/p = 
+            //*
+            //**
+            //***
+            //****
+            //*****
+            //******
+
+            int i, j;
+            for (i = 0; i < 5; i++)
+            {
+                for (j = 2 * (5 - i); j >= 0; j--)
                 {
                     Console.Write(" ");
                 }
-               for(int k=1;k<=(2*i-1);k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine(); ;
+                    for (j = 0; j <= i; j++)
+                    {
+                        Console.Write("* ");
+                    }
+                    Console.WriteLine();
+               }
+
+
+            //o/p
+            //     *
+            //    **
+            //   ***
+            //  ****
+            // *****
             }
-            Console.WriteLine("End of Program");
         }
     }
-}
+
+
