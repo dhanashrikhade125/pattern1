@@ -247,32 +247,32 @@ namespace ConsoleApp32
             //  **
             //   *
 
-            int i, j, k;
+            //int i, j, k;
 
-            for (i = 0; i <= 6 - 1; i++)
-            {
-                for (j = 0; j < i; j++)
-                {
-                    Console.Write(" ");
-                }
-                for (k = i; k <= 6 - 1; k++)
-                {
-                    Console.Write("*" + " ");
-                }
-                Console.WriteLine("");
-            }
-            for (i = 6 - 1; i >= 0; i--)
-            {
-                for (j = 0; j < i; j++)
-                {
-                    Console.Write(" ");
-                }
-                for (k = i; k <= 6 - 1; k++)
-                {
-                    Console.Write("*" + " ");
-                }
-                Console.WriteLine("");
-            }
+            //for (i = 0; i <= 6 - 1; i++)
+            //{
+            //    for (j = 0; j < i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (k = i; k <= 6 - 1; k++)
+            //    {
+            //        Console.Write("*" + " ");
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //for (i = 6 - 1; i >= 0; i--)
+            //{
+            //    for (j = 0; j < i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (k = i; k <= 6 - 1; k++)
+            //    {
+            //        Console.Write("*" + " ");
+            //    }
+            //    Console.WriteLine("");
+            //}
 
             //o/p
             //******
